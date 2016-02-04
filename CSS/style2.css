@@ -1,0 +1,74 @@
+/*Text formatting with CSS*/
+
+*{
+  margin:0px;
+  padding:0px;
+  font-weight: normal;
+  font-size: 18px;
+  background-image: url('cat_index2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+body{
+  padding: 40px;
+  font-family: Georgia, Times, serif;
+  color: #373737;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 10px 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+h1{
+  font-size: 3.6em;
+}
+h2{
+  font-size: 2.6em;
+}
+h3{
+  font-size: 1.6em;
+  letter-spacing: -1px;
+  text-indent: 80px;
+  line-height: 1.3;
+}
+p{
+  text-indent: 5%;
+}
+
+span{
+  text-decoration: line-through;
+}
+
+em{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+strong{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Border box styling*/
+
+.border-box{
+  background: #fc3;
+  margin: 0 0 20px;
+  padding: 40px;
+  width: 320px;
+  text-align: center;
+}
+
+
+#box1{border:1px solid black}
+#box2{border:1px dashed black}
+#box3{border:1px dotted black}
+#box4{border:3px double black}
+#box5{border:2px solid black}
+#box6{border:2px dashed black}
+#box7{border:2px dotted black; background:url('http://exmoorpet.com/wp-content/uploads/2012/08/cat.png');
+background-position: center; background-size: 50%; background-repeat: no-repeat;
+}
+
+#box8{border:2px double black}
