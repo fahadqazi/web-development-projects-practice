@@ -31,6 +31,7 @@ h3{
 }
 p{
   text-indent: 5%;
+
 }
 
 span{
@@ -45,3 +46,176 @@ strong{
   text-transform: uppercase;
   font-weight: bold;
 }
+/*Styling web forms*/
+
+#container{
+  width: 700px;
+  margin: 0 auto;
+  height: 2000px;
+
+}
+fieldset{
+  padding: 40px;
+  border: 1px solid #777;
+  background: url('cat_index2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+fieldset legend{
+  background: white;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+form{
+  margin-top: 40px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+  padding: 10px;
+  border: 1px solid #333;
+  display: block;
+  font-size: 18px;
+  font-family: Monaco, monospace;
+  width: 50%;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 20px;
+  border-top: none;
+}
+
+label{
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #ED2B2B;
+  display: block;
+  width: 50.3%;
+  padding: 2%;
+  color: white;
+}
+input[type="submit"]{
+  background: none;
+  background: url('tile.png') repeat-x;
+  height: 40px;
+  padding: 0 40px;
+  color: white;
+  border: 1px solid white;
+  opacity: 0.8;
+}
+textarea{
+  resize:none;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  border-color: #777;
+  opacity: 1;
+
+}
+
+input[type="submit"]:active{
+  border-color: black;
+}
+
+#floats{
+  background: #d41;
+}
+#floats #container{
+  background: white;
+  padding:20px;
+}
+#left-col{
+  float: left;
+  width: 400px;
+  background-color: #333;
+  color: white;
+  margin-bottom: 20px;
+}
+#right-col{
+  float: right;
+  width: 170px;
+  background: #f12;
+  margin-bottom: 20px;
+}
+/*.clear{
+  clear:both;
+}*/
+.clearfix{
+  content="";
+  display: table;
+  clear:both;
+}
+
+#footer{
+  clear:both;
+  background: #333;
+  padding: 20px;
+  color: white;
+  font-family: verdana;
+  margin-top: 20px;
+}
+
+/*Positioning lecture*/
+
+#paragraph{
+  clear:right;
+}
+
+#positioning{
+  background: #1b4e5e;
+}
+
+#positioning #container{
+  background: white;
+  padding: 20px;
+}
+
+#positioning h2{
+  font-size: 18px;
+}
+
+.box{
+  background: #db4e3e;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+#relative{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+
+#menu{
+  position: fixed;
+  background-color: #fff;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s

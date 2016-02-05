@@ -5,15 +5,17 @@
   padding:0px;
   font-weight: normal;
   font-size: 18px;
-  background-image: url('cat_index2.jpeg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 body{
   padding: 40px;
   font-family: Georgia, Times, serif;
   color: #373737;
+  background-image: url('cat_index2.jpeg');
+
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  /*background-position: absolute;*/
+  /*background-position: center;*/
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -56,7 +58,7 @@ strong{
   background: #fc3;
   margin: 0 0 20px;
   padding: 40px;
-  width: 320px;
+  width: 400px;
   text-align: center;
 }
 

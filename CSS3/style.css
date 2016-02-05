@@ -1,0 +1,29 @@
+#box{
+  width:200px;
+  height:200px;
+  margin: 0 auto;
+  background: red;
+  padding: 30px;
+  box-sizing: border-box;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/*--Colors--*/
+
+body#colors{
+  background: rgba(25,52,84,1);
+  color: white;
+}
+
+#colors #container{
+  width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px;
+  background: rgba(255,255,255,0.5);
+}
+
+#colors #box{
+  background: linear-gradient(yellow,green);
+}
