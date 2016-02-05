@@ -27,3 +27,22 @@ body#colors{
 #colors #box{
   background: linear-gradient(yellow,green);
 }
+
+#three-columns{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+
+  -webkit-column-gap: 20px;
+  -moz-coloumn-gap: 20px;
+
+  -webkit-column-rule-style: solid;
+  -moz-column-rule-style: solid;
+
+  -webkit-column-rule-width: 1px;
+  -mox-column-rule-width: 1px;
+
+
+
+
+
+}
