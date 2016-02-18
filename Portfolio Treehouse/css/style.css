@@ -179,7 +179,10 @@ Contact Page
  background-image:url('../img/twitter.png'); 
 }
 
-
+#trouble{
+    margin:0px;
+    padding: 0px;
+}
 
 
 
