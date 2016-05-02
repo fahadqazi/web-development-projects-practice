@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://fb.me/react-0.14.7.js"></script>
+    <script src="https://fb.me/react-dom-0.14.7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <title>1</title>
+    <style>
+      .btn-primary{
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="my-div" class="container">
+
+    </div>
+  </body>
+  <script type="text/jsx">
+    var Badge = React.createClass({
+      getInitialState: function(){
+        return {
+          value: 32
+        }
+      },
+      incrementVal: function(){
+        this.setState({
+          value: this.state.value + 1
+        });
+      },
+      decrementVal: function(){
+        this.setState({
+          value: this.state.value - 1
+        });
+      },
+      render:function(){
+        return(<div>
+          <button className="btn btn-primary" type="button">
+            {this.props.title} <span className="badge">{this.state.value}</span>
+          </button>
+          <button className="btn btn-primary" type="button" onClick={this.incrementVal}>
+            {this.props.but1}
+          </button>
+          <button className="btn btn-primary" type="button" onClick={this.decrementVal}>
+            {this.props.but2}
+          </button>
+          </div>
+        );
+      }
+    });
+
+    var options = {
+      title: 'Sent',
+      // value: 21,
+      but1: 'Increment',
+      but2: 'Decrement'
+    };
+
+
+    var badge = React.createElement(Badge, options);
+
+    ReactDOM.render(badge , document.getElementById('my-div'));
+  </script>
+</html>
